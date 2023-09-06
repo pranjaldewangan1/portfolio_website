@@ -1,0 +1,359 @@
+/* Responsive media queries start*/
+@media (max-width:1350px) {
+    .home .max-width {
+        margin-left: 0px;
+
+    }
+
+    .about .title::before {
+        top: 1447px;
+    }
+
+    .about .title::after {
+        top: 1426px;
+    }
+
+    .services .title::before {
+        top: 2196px;
+    }
+
+    .services .title::after {
+        top: 2174px;
+    }
+
+    .home-content-image {
+        display: none;
+    }
+
+    /* .home .home-content-image .img2 {
+        position: absolute;
+        width: 368px;
+        left: 943px;
+        top: 115px;
+        transition: all .8s ease;
+        z-index: 999;
+    } */
+}
+
+@media (max-width:1300px) {
+    .home-content-image {
+        display: none;
+    }
+
+    .home .max-width {
+        margin-left: 0px;
+
+    }
+
+    /* .home .home-content-image .img2 {
+        position: absolute;
+        width: 368px;
+        left: 943px;
+        top: 115px;
+        transition: all .8s ease;
+        z-index: 998;
+    } */
+}
+
+@media (max-width:1104px) {
+    .home-content-image {
+        display: none;
+    }
+
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+
+    /* .home .home-content-image .img2 {
+        position: absolute;
+        width: 368px;
+        left: 943px;
+        top: 115px;
+        transition: all .8s ease;
+        z-index: 998;
+    } */
+}
+
+@media (max-width:1000px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+
+    .home-content-image {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.884);
+        padding-top: 70px;
+        text-align: center;
+        transition: all .4s ease;
+        /* transform: translateX(-100%); */
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    /* .home .home-content .text-1 {
+        font-size: 20px;
+        margin-left: -10px;
+    } */
+
+    .home .home-content .text-2 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 25px;
+        margin: 5px 0;
+        margin-left: -10px;
+    }
+
+    .home .home-content a {
+        font-size: 18px;
+        padding: 6px 45px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+
+    .max-width {
+        max-width: 930px;
+    }
+
+    .about .about-content .coloumn {
+        width: 50%;
+    }
+
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .about .title::before {
+        top: 1447px;
+    }
+
+    .about .title::after {
+        top: 1426px;
+    }
+
+    .services .title::before {
+        top: 2303px;
+    }
+
+    .services .title::after {
+        top: 2282px;
+    }
+
+    .contact .contact-content .left {
+        width: 45%;
+    }
+
+    .contact .contact-content .right {
+        width: 40%;
+    }
+}
+
+@media (max-width:840px) {
+    .max-width {
+        padding: 0 60px;
+    }
+
+    .home-content-image {
+        display: none;
+    }
+
+    .home .home-content .text-1 {
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .home .home-content a {
+        font-size: 15px;
+        padding: 5px 40px;
+        margin-top: 18px;
+        margin-left: -10px;
+    }
+
+    .max-width {
+        max-width: 800px;
+    }
+
+    .about .about-content .left img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about .about-content .coloumn {
+        width: 50%;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right {
+        flex: 100%;
+    }
+
+    .contact .contact-content .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact .contact-content .right {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:690px) {
+    .max-width {
+        padding: 0 30px;
+    }
+
+    .home-content-image {
+        display: none;
+    }
+
+    .home .home-content .text-1 {
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+    .home .home-content a {
+        font-size: 12px;
+        padding: 4px 30px;
+        margin-top: 14px;
+        margin-left: -10px;
+    }
+
+    .about .about-content .left img {
+        height: 270px;
+        width: 270px;
+    }
+
+    .services .serv-content .card,
+    .skills .skills-content .column {
+        width: 100%;
+    }
+
+    .contact .contact-content .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact .contact-content .right {
+        width: 100%;
+    }
+
+    .footer .contain1 .footer-menu ul li {
+        display: none;
+    }
+
+    .footer .contain3 .copyrghts p {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:440px) {
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .home-content-image {
+        display: none;
+    }
+
+    .home .home-content .text-1 {
+        margin-left: -10px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: -10px;
+
+    }
+
+    .home .home-content .text-3 {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+    .home .home-content a {
+        font-size: 10px;
+        padding: 3px 20px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .about .about-content .left img {
+        height: 230px;
+        width: 230px;
+    }
+
+    .contact .contact-content .left {
+        width: 100%;
+    }
+
+    .contact .contact-content .right {
+        width: 100%;
+    }
+
+    .footer .contain1 .footer-menu ul li {
+        display: none;
+    }
+
+    .footer .contain3 .copyrghts p {
+        font-size: 9px;
+    }
+}
